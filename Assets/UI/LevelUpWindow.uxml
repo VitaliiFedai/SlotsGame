@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Slots.uss?fileID=7433441132597879392&amp;guid=de94f8fbdad14e84793b430d12b4ebe4&amp;type=3#Slots" />
+    <Style src="project://database/Assets/UI/Resources/CheckingSchemeStyle.uss?fileID=7433441132597879392&amp;guid=96b6bf7e332a5e84cb115bef89ac923f&amp;type=3#CheckingSchemeStyle" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; justify-content: center; align-items: center; align-self: auto; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+        <ui:VisualElement style="height: 40%; width: 60%; align-items: flex-start; justify-content: center; align-self: center; background-color: rgb(229, 210, 191); border-left-color: rgb(78, 102, 154); border-right-color: rgb(78, 102, 154); border-top-color: rgb(78, 102, 154); border-bottom-color: rgb(78, 102, 154); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 33px; border-top-right-radius: 33px; border-bottom-right-radius: 33px; border-bottom-left-radius: 33px;">
+            <ui:VisualElement name="window-frame" style="flex-grow: 1; width: 104%; height: 104%; background-image: url(&quot;project://database/Assets/Textures/SlotIcons/Frame_01.png?fileID=21300000&amp;guid=bed6847e088f92e458cff3d321653a2f&amp;type=3#Frame_01&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); flex-shrink: 0; align-items: center; justify-content: center;">
+                <ui:VisualElement name="header-decor" style="flex-grow: 1; width: 100%; align-items: center; justify-content: center; height: 20%; flex-shrink: 1;">
+                    <ui:VisualElement name="header-flag" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/Event%20Header.png?fileID=21300000&amp;guid=a1cc47d6af14b2c40be831656b7acd95&amp;type=3#Event Header&quot;); -unity-background-scale-mode: scale-to-fit; width: 85%; height: 300%; top: -56%; flex-shrink: 0; align-items: center; justify-content: center; padding-bottom: 18%;">
+                        <ui:VisualElement name="header-text" style="flex-grow: 1; flex-shrink: 0; background-image: url(&quot;project://database/Assets/Textures/Level%20Up.png?fileID=21300000&amp;guid=202d67ec13fcb604dbf857cfc509ddf0&amp;type=3#Level Up&quot;); -unity-background-scale-mode: scale-to-fit; width: 60%; height: 100%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 50%; justify-content: center; width: 100%; align-items: center;">
+                    <ui:VisualElement name="container" style="flex-grow: 0; width: 100%; height: 100%; flex-direction: column; padding-right: 5%; padding-left: 5%; align-self: auto; align-items: center; justify-content: center; padding-top: 50px; margin-top: 30px; top: -20%;">
+                        <ui:Label tabindex="-1" text="You reached level" parse-escape-sequences="true" display-tooltip-when-elided="true" name="you-reached-label" class="popup-text" />
+                        <ui:Label tabindex="-1" text="2" parse-escape-sequences="false" display-tooltip-when-elided="false" name="level-label" enable-rich-text="false" class="popup-text" style="height: 30%; font-size: 70px; margin-bottom: 5%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1; width: 100%; height: 200px; align-items: center; justify-content: flex-start;">
+                    <ui:Button name="ok-button" text="Ok" focusable="false" enable-rich-text="false" class="system-button" style="flex-grow: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

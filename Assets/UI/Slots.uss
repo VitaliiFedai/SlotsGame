@@ -1,0 +1,297 @@
+#GainField {
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.system-button {
+    height: 128px;
+    width: 128px;
+    background-image: url("project://database/Assets/Textures/SlotIcons/Button_01.png?fileID=21300000&guid=f1000d71ff132874892e16216231e81d&type=3#Button_01");
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(188, 188, 188, 0);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    flex-grow: 1;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    font-size: 25px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-font: resource('ComickBook_Simple');
+    -unity-font-definition: initial;
+}
+
+.clouds-center-space {
+    flex-grow: 1;
+    width: 25%;
+}
+
+.bet-control-button {
+    height: 128px;
+    width: 128px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 90px;
+    -unity-font-style: bold;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    color: rgb(255, 255, 255);
+    background-image: url("project://database/Assets/Textures/SlotIcons/Button_01.png?fileID=21300000&guid=f1000d71ff132874892e16216231e81d&type=3#Button_01");
+    -unity-text-align: upper-center;
+    -unity-font: resource('ComickBook_Simple');
+    -unity-font-definition: initial;
+}
+
+.sound-slider {
+    width: 100%;
+}
+
+.menu-header2 {
+    font-size: 42px;
+    color: rgb(58, 159, 209);
+    -unity-font-style: bold;
+    -unity-font: resource('ComickBook_Simple');
+    -unity-font-definition: initial;
+}
+
+.menu-header-label {
+    justify-content: flex-start;
+    -unity-text-align: middle-center;
+    font-size: 50px;
+    -unity-font-style: bold;
+    color: rgb(58, 159, 209);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    top: -24px;
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    -unity-font: resource('ComickBook_Simple');
+    -unity-font-definition: initial;
+}
+
+.popup-text {
+    width: 100%;
+    height: 20%;
+    -unity-text-align: middle-center;
+    font-size: 45px;
+    -unity-font-style: bold;
+    color: rgb(255, 105, 85);
+    -unity-font: resource('ComickBook_Simple');
+    -unity-font-definition: initial;
+}
+
+.bet-tooltip-text {
+    width: 100%;
+    font-size: 26px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+    -unity-font: resource('ComickBook_Simple');
+    -unity-font-definition: initial;
+}
+
+.bet-tooltip-start-pos {
+    flex-grow: 0;
+    background-color: rgb(58, 82, 130);
+    width: 50%;
+    height: 200px;
+    flex-shrink: 0;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 13%;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-out-back;
+}
+
+.bet-tooltip-before-start-pos {
+    width: 0;
+    height: 0;
+    flex-shrink: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-cubic;
+}
+
+#mute-toggle #unity-checkmark {
+    background-image: url("project://database/Assets/Textures/ProgressBarBackground.png?fileID=2800000&guid=880d270971c1f7949b6af6d867f8676e&type=3#ProgressBarBackground");
+    width: 80px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#mute-toggle:checked #unity-checkmark {
+    width: 80px;
+    height: 80px;
+    background-image: url("project://database/Assets/Textures/CheckBox_Checked.png?fileID=2800000&guid=4b6df78ffbbb8674ea7edb21bda73ece&type=3#CheckBox_Checked");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#experience-progress-bar #unity-progress-bar {
+    color: rgba(27, 27, 27, 0);
+}
+
+#experience-progress-bar Label {
+    display: none;
+}
+
+#experience-progress-bar VisualElement2 {
+    display: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.custom-progress-bar-background {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 62px;
+    -unity-background-image-tint-color: rgba(0, 0, 0, 0);
+    background-image: url("project://database/Assets/Textures/ProgressBarBackground.png?fileID=21300000&guid=880d270971c1f7949b6af6d867f8676e&type=3#ProgressBarBackground");
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.custom-progress-bar-fill {
+    background-image: url("project://database/Assets/Textures/ProgressBarFill.png?fileID=21300000&guid=3f9be0a426999d8429493d226da36ac0&type=3#ProgressBarFill");
+    height: 33px;
+    opacity: 1;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.custom-progress-bar-container {
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+}
+
+.unity-progress-bar__background {
+    -unity-background-image-tint-color: rgba(0, 0, 0, 0);
+    height: 33px;
+    border-left-color: rgba(243, 47, 47, 0);
+    border-right-color: rgba(243, 47, 47, 0);
+    border-top-color: rgba(243, 47, 47, 0);
+    border-bottom-color: rgba(243, 47, 47, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-progress-bar__container {
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    width: 100%;
+}
+
+.unity-progress-bar__progress {
+    background-image: url("project://database/Assets/Textures/ProgressBarFill.png?fileID=21300000&guid=3f9be0a426999d8429493d226da36ac0&type=3#ProgressBarFill");
+    -unity-background-scale-mode: stretch-to-fill;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: -4px;
+}
+
+.bonus-button {
+    width: 128px;
+    height: 128px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.button-animation {
+    width: 200px;
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.message-text {
+}
+
+.record-value-label {
+    -unity-font: resource('ComickBook_Simple');
+    -unity-font-definition: initial;
+}

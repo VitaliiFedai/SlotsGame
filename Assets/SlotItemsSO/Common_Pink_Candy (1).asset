@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e344f5e0f50da834e8f71f80df6d943f, type: 3}
+  m_Name: Common_Pink_Candy (1)
+  m_EditorClassIdentifier: 
+  _name: Blue
+  _sprite: {fileID: 21300000, guid: 43e49e9e64f24f34e81540fe038cfbaa, type: 3}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _spawnWeight: 9
+  _betMultiplier: 020000000a00000014000000
+  _isWild: 0

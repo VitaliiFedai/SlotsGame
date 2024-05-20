@@ -1,0 +1,23 @@
+Slot Bonanza Jelly Clouds
+com.bonanzaje.llyclouds
+
+1242x2688
+
+Buld
+
+1242x2208
+
+Он состоит из:
+- Описания
+- Шесть скриншотов разрешения 1242x2688
+- Шесть скриншотов разрешения 1242x2208
+- Сборки игры под iOS, с настройками которые будут ниже
+
+Так же плюсом от тебя нужна будет иконка
+
+
+- Assets/
+- Packages/
+- ProjectSettings/
+
+Test your luck in the candy slots! Upgrade your slots and increase bet. Set your records and break them!

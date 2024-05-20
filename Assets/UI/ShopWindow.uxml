@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Slots.uss?fileID=7433441132597879392&amp;guid=de94f8fbdad14e84793b430d12b4ebe4&amp;type=3#Slots" />
+    <Style src="project://database/Assets/UI/Resources/ShopStyles.uss?fileID=7433441132597879392&amp;guid=25b8ac6bc7f81b4419d146f9396ec93f&amp;type=3#ShopStyles" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; justify-content: center; align-items: center; align-self: auto; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+        <ui:VisualElement style="height: 50%; width: 80%; align-items: center; justify-content: center; align-self: center; background-color: rgb(229, 210, 191); border-left-color: rgb(78, 102, 154); border-right-color: rgb(78, 102, 154); border-top-color: rgb(78, 102, 154); border-bottom-color: rgb(78, 102, 154); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 33px; border-top-right-radius: 33px; border-bottom-right-radius: 33px; border-bottom-left-radius: 33px;">
+            <ui:VisualElement name="header-cloud" style="flex-grow: 1; width: 100%; align-items: center; justify-content: center; height: 0; flex-shrink: 1;">
+                <ui:VisualElement style="flex-grow: 0; background-image: none; width: 639px; height: 142px; flex-shrink: 0; top: -55px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="window-frame" style="flex-grow: 1; width: 104%; height: 104%; background-image: url(&quot;project://database/Assets/Textures/SlotIcons/Frame_01.png?fileID=21300000&amp;guid=bed6847e088f92e458cff3d321653a2f&amp;type=3#Frame_01&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); flex-shrink: 0; align-items: center; justify-content: center;">
+                <ui:VisualElement name="header-cloud" style="flex-grow: 0; width: 100%; align-items: center; justify-content: center; height: 0; flex-shrink: 1;">
+                    <ui:VisualElement style="flex-grow: 0; background-image: url(&quot;project://database/Assets/Textures/SlotIcons/Header_Cloud_Overlay.png?fileID=21300000&amp;guid=12addfacadda8764f85555bc23171015&amp;type=3#Header_Cloud_Overlay&quot;); width: 700px; height: 185px; flex-shrink: 0; top: -41px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Header" style="height: 0; width: 100%; align-items: center; justify-content: center;">
+                    <ui:Label text="Shop" parse-escape-sequences="false" display-tooltip-when-elided="false" enable-rich-text="false" name="Label" picking-mode="Ignore" class="menu-header-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="container" style="flex-grow: 1; height: 100%; justify-content: space-around; width: 90%; align-items: center; flex-direction: row; flex-wrap: wrap; padding-top: 5%;" />
+                <ui:VisualElement style="flex-grow: 1; width: 100%; height: 267px; align-items: center; justify-content: flex-start;">
+                    <ui:Button name="back-button" text="Back" class="system-button" style="flex-grow: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Slots.uss?fileID=7433441132597879392&amp;guid=de94f8fbdad14e84793b430d12b4ebe4&amp;type=3#Slots" />
+    <ui:VisualElement tabindex="4" picking-mode="Ignore" name="VisualElement" style="flex-grow: 0; flex-shrink: 0; width: 100%; height: 100%; flex-direction: column-reverse; justify-content: flex-start; align-items: center;">
+        <ui:VisualElement name="background" picking-mode="Ignore" class="bet-tooltip-start-pos" style="overflow: hidden;">
+            <ui:Label tabindex="-1" text="text" parse-escape-sequences="true" display-tooltip-when-elided="false" name="text-label" enable-rich-text="false" picking-mode="Ignore" class="bet-tooltip-text" style="color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
